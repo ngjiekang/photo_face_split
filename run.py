@@ -57,7 +57,6 @@ for idx, person_ids in enumerate(linked_id_list):
     person_folder = output_folder + str(idx) + "/"
     os.mkdir(person_folder)
     # find which photo has any of the person_ids
-    # photo_idx = []
     for p in person_ids:
         for photo_idx, face_ids in enumerate(face_ids_list):
             if p in face_ids:
