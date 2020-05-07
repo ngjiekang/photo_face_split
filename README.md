@@ -6,14 +6,14 @@ Uses face_recognition package and dlip is required. Installation guide for dlip 
 
 Convert all photos in album and save into pickle file.
 
-Run ```python pre_processing.py```
+```python pre_processing.py```
 
 Do pairwise comparisons of faces across photos and construct a network with
 nodes as faces, and edges if two faces are similar. Each isolated subgraphs
 will be taken as a person and images with the person is written to a separate
 folder.
 
-Run ```python run.py```
+```python run.py```
 
 ---
 Test data can be taken from https://dev.to/kmavrodis/going-through-10000-pictures-in-30-seconds-ad8.
