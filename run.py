@@ -38,7 +38,7 @@ for row_i, id_list_i in enumerate(face_ids_list):
             continue
         for face_index in id_list_i:
             # compare each face of the current i row, with other pics. compare_faces([j_pic_faces],a_face_in_i_row)
-            matches = face_recognition.compare_faces(fe[row_j], id_face_dict[face_index], tolerance=0.4)
+            matches = face_recognition.compare_faces(fe[row_j], id_face_dict[face_index], tolerance=0.2)
             # print(img_names[row_j], face_index)
             # print(matches)
             if sum(matches):
