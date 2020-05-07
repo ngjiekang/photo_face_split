@@ -7,6 +7,7 @@ import networkx as nx
 
 # references
 # https://github.com/ageitgey/face_recognition/issues/359
+# kiv
 # from chinese_whispers import chinese_whispers
 # chinese_whispers(G, weighting='top', iterations=20)
 
