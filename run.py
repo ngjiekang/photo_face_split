@@ -5,6 +5,8 @@ import pickle
 from itertools import chain
 import networkx as nx
 
+# references
+# https://github.com/ageitgey/face_recognition/issues/359
 # from chinese_whispers import chinese_whispers
 # chinese_whispers(G, weighting='top', iterations=20)
 
