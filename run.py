@@ -48,8 +48,8 @@ for row_i, id_list_i in enumerate(face_ids_list):
                 for ind in indices:
                     G.add_edge(face_ids_list[row_j][ind], face_index)
 
-output_folder = '../data/weddingphoto_results/'.format(test)
-photo_path = '../data/weddingphotos/'.format(test)
+output_folder = '../data/weddingphoto{}_results/'.format(test)
+photo_path = '../data/weddingphotos{}/'.format(test)
 if os.path.exists(output_folder):
     os.system('rm -r ' + output_folder)
 os.mkdir(output_folder)
