@@ -15,3 +15,7 @@ folder.
 
 Run ```python run.py```
 
+---
+Test data can be taken from https://dev.to/kmavrodis/going-through-10000-pictures-in-30-seconds-ad8.
+Run the get_data.sh in a separate folder.
+
